@@ -1690,7 +1690,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #f8d7da;
+  color: #212529;
 }
 
 .table th,
@@ -2140,7 +2140,7 @@ select.form-control:focus::-ms-value {
   margin-bottom: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #f8d7da;
+  color: #212529;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -6530,8 +6530,8 @@ a.close.disabled {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   background: no-repeat 50% / 100% 100%;
 }
 
@@ -10222,29 +10222,3 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-/* */
-.about-2{
-	background: url("../images/LOW.jpg");
-	background-repeat: no-repeat;
-	background-position: 0 50%;
-}
-.call-We{
-	background: url("../images/LOW.jpg");
-	background-repeat: no-repeat;
-	background-position: 0 50%;
-}
-.img_1{
-	float:inherit;
-	margin: 25px;
-}
-.img_2{
-	float:inherit;
-	margin: 12px;
-}
-.TEXT1 {
-	background: url("../images/LOW.jpg");
-	background-repeat: no-repeat;
-	background-position: 0 50%;	
-}
-.class1 {
-}
