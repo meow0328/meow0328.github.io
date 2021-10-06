@@ -46,6 +46,11 @@
 	h5:active{
 		color: #FFCC60;
 	}
+	
+	.Start{
+
+	}
+	
 	.logo{
 		text-decoration:none;
 		float:left;
@@ -78,9 +83,9 @@
 	}
 	.Start{
 		margin: 0 auto;
-		width: 600px;
+		width: auto;
 		height: 60px;	
-		background-color: #ffffff;
+		background-color: #FFFDE2;
 		top:50px;
 		display: flex;          /* ★ */
 		align-items: center;    /* 垂直置中 */
@@ -90,48 +95,49 @@
 		margin: 0 auto;
 		width: 600px;
 		height: 50px;
-		padding-top: 10px;
+		padding-top: 20px;
 	}
 	.introduce{
 		margin: 0 auto;
 		width: 600px;
 		height: 50px;
-		padding-top: 30px;
+		padding-top: 22.5px;
 	}
 	.mp4_1{
 		argin: 0 auto;
 		width: 500px;
 		height: 340px;
-		padding-top: 15px;
+		padding-top: 25px;
 	}
 	.about{
 		margin: 0 auto;
 		width: 600px;
 		height: 150px;
-		padding-top: 20px;
+		padding-top: 30px;
 	}
 	.callme{
 		margin: 0 auto;
 		width: 600px;
 		height: 50px;
-		padding-top: 20px;
+		padding-top: 40px;
 	}
 
 	.Columns1{
 		margin: 0 auto;
 		width: 700px;
-		height: 300px;	
-		background-color: #ffffff;
-		top:50px;
+		height: 300px;
+		background-color: #C4FAFF;
+		padding-top:30px;
 		display: flex;          /* ★ */
 		align-items: center;    /* 垂直置中 */
 	}
 	.Columns2{
-		padding-top: 33px;
+		background-color: #C4FAFF;
+		padding-top: 63px;
 	}
 	
 	
-	.Label {
+	.Label1 {
 		font-family: "微軟正黑體";
 		font-weight: bold;
 		margin: 0 auto;
@@ -143,83 +149,119 @@
 		font-family: "微軟正黑體";
 		font-weight: bold;
 		margin: 0 auto;
-		background-image:url("images/標籤水平線-橘.png");
+		background-image:url("images/標籤水平線2.png");
+		background-repeat: no-repeat;
+		background-position: 0 50%;
+	}	
+	.Label3 {
+		font-family: "微軟正黑體";
+		font-weight: bold;
+		margin: 0 auto;
+		background-image:url("images/標籤水平線3.png");
 		background-repeat: no-repeat;
 		background-position: 0 50%;
 	}
-	.callme-illustrate{
+	.Label4 {
+		font-family: "微軟正黑體";
+		font-weight: bold;
 		margin: 0 auto;
-		width: 600px;
-		height: 40px;
+		background-image:url("images/標籤水平線4.png");
+		background-repeat: no-repeat;
+		background-position: 0 50%;
 	}
 	.about-illustrate {
 		margin: 0 auto;
 		width: 600px;
 		height: 100px;
 	}
-	.about-text1 {
-		padding-bottom: 0px;
+	.callme-illustrate{
+		margin: 0 auto;
+		width: 600px;
+		height: 40px;
+		padding-top: 18px;
+	}
+	.box1{
+		height: 720px;
+		background-color: #C4FAFF;
+	}
+	.box2{
+		height: 450px;
+		background-color: #DCFFD7;		
+	}
+	.box3{
+		height: 190px;
+		background-color: #ffffff;		
+	}
+	.box4{
+		height: 130px;
+		background-color: #ECECEC;		
 	}
 
+.Label3 {
+}
+.Label4 {
+}
+.Label1 {
+}
 </style>
-	
-
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-
+	
+<!--上方列-->
 <div class="Start">
-  <!--LOGO-->
-	<div class="logo">
-			<a href="index.html"><img src="images/logo.png" width="80" height="30" alt=""></a>
-  	</div>
+	<div class="Start">
+	  <!--LOGO-->
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" width="80" height="30" alt=""></a>
+			</div>
 
-  <!--首頁標題-->
-		<div class="title">
-		  	<h3 class="text-left col-sm-9 col-md-10">
-			  	<a href="index.html" 
-				   style="color:#000000;
-						  text-decoration:none;">
-				  	<b>巴黎旅遊網</b>
-				</a>
-		  	</h3>
-        </div>
-	  <!--首頁-->
-		<div class="Attractions">
-		  	<h5 class="text-center">
-				<a href="index.html" 
-				   style="color:#e83e8c;
-						  text-decoration:none;
-						  font-family: '微軟正黑體';">
-					首頁
-				</a>
-			</h5>
-        </div>
-	  <!--簡介-->
-		<div class="Attractions">
-			<h5 class="text-center">
-				<a href="about.html"
-				   style="color:#e83e8c;
-						  text-decoration:none;
-						  font-family: '微軟正黑體';">
-					巴黎簡介
-				</a>
-			</h5>
-		</div>
-	
-	  <!--景點-->
-  		<div class="Attractions">
-		  	<h5 class="text-center">
-			  	<a href="#lab1" 
-				   style="color:#e83e8c;
-						  text-decoration:none;
-						  font-family: '微軟正黑體';">
-					巴黎景點
-				</a>
-		  	</h5>
-        </div>
-	
+	  <!--首頁標題-->
+			<div class="title">
+				<h3 class="text-left col-sm-9 col-md-10">
+					<a href="index.html" 
+					   style="color:#000000;
+							  text-decoration:none;">
+						<b>巴黎旅遊網</b>
+					</a>
+				</h3>
+			</div>
+		  <!--首頁-->
+			<div class="Attractions">
+				<h5 class="text-center">
+					<a href="index.html" 
+					   style="color:#e83e8c;
+							  text-decoration:none;
+							  font-family: '微軟正黑體';">
+						首頁
+					</a>
+				</h5>
+			</div>
+		  <!--簡介-->
+			<div class="Attractions">
+				<h5 class="text-center">
+					<a href="about.html"
+					   style="color:#e83e8c;
+							  text-decoration:none;
+							  font-family: '微軟正黑體';">
+						巴黎簡介
+					</a>
+				</h5>
+			</div>
+
+		  <!--景點-->
+			<div class="Attractions">
+				<h5 class="text-center">
+					<a href="#lab1" 
+					   style="color:#e83e8c;
+							  text-decoration:none;
+							  font-family: '微軟正黑體';">
+						巴黎景點
+					</a>
+				</h5>
+			</div>
+	</div>
 </div>
 
 <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" style="background-color: grey">
@@ -283,116 +325,135 @@
     <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
 </div>
 	
-&ensp;<br> <!--換行-->
-	
-<!--景點介紹-->
-<div class="viewpoint">
-	<div class="title_1">
-	  <h4 class="text-center Label" id="lab1">景點介紹</h4>
-	</div>
-</div>
-	
-<!--景點分欄介紹-->	
-<div class="Columns1">
-	<div class="columns card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/Carousel_Placeholder.jpg" alt="Card image cap" width="270" height="153" class="card-img-top rounded">
-  		<div class="card-body">
-    		<h5 class="card-title">景點標題</h5>
-    		<p class="card-text">內文說明概要</p>
-    		<a href="#" class="btn btn-outline-dark"> 前往了解 >>> </a> 
+
+<div class="box1">	
+	<!--景點介紹-->
+	<div class="viewpoint">
+		<div class="title_1">
+		  <h4 class="text-center Label1 lab" id="lab1">景點介紹</h4>
 		</div>
 	</div>
-	&ensp;
-	<div class="columns card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/paris.jpg" alt="Card image cap" width="270" height="153" class="card-img-top rounded">
-  		<div class="card-body">
-    		<h5 class="card-title">景點標題</h5>
-    		<p class="card-text">內文說明概要</p>
-    		<a href="#" class="btn btn-outline-dark"> 前往了解 >>> </a> 
+
+	<!--景點分欄介紹-->	
+	<div class="Columns1">
+		<div class="columns card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/Carousel_Placeholder.jpg" alt="Card image cap" width="270" height="153" class="card-img-top rounded">
+			<div class="card-body">
+				<h5 class="card-title">景點標題</h5>
+				<p class="card-text">內文說明概要</p>
+				<a href="#" class="btn btn-outline-dark"> 前往了解 >>> </a> 
+			</div>
 		</div>
-	</div>
-	&ensp;
-	<div class="columns card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/nice.jpg" alt="Card image cap" width="270" height="153" class="card-img-top rounded">
-  		<div class="card-body">
-    		<h5 class="card-title">景點標題</h5>
-    		<p class="card-text">內文說明概要</p>
-    		<a href="#" class="btn btn-outline-dark"> 前往了解 >>> </a> 
+		&ensp;
+		<div class="columns card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/paris.jpg" alt="Card image cap" width="270" height="153" class="card-img-top rounded">
+			<div class="card-body">
+				<h5 class="card-title">景點標題</h5>
+				<p class="card-text">內文說明概要</p>
+				<a href="#" class="btn btn-outline-dark"> 前往了解 >>> </a> 
+			</div>
 		</div>
+		&ensp;
+		<div class="columns card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/nice.jpg" alt="Card image cap" width="270" height="153" class="card-img-top rounded">
+			<div class="card-body">
+				<h5 class="card-title">景點標題</h5>
+				<p class="card-text">內文說明概要</p>
+				<a href="#" class="btn btn-outline-dark"> 前往了解 >>> </a> 
+			</div>
+		</div>	
 	</div>	
-</div>	
-<div class="Columns1 Columns2">
-	<div class="columns card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/a4.jpg" alt="Card image cap" height="153" class="card-img-top rounded">
-  		<div class="card-body">
-    		<h5 class="card-title">景點標題</h5>
-    		<p class="card-text">內文說明概要</p>
-    		<a href="#" class="btn btn-outline-dark"> 前往了解 >>> </a> 
+	<div class="Columns1 Columns2">
+		<div class="columns card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/a4.jpg" alt="Card image cap" height="153" class="card-img-top rounded">
+			<div class="card-body">
+				<h5 class="card-title">景點標題</h5>
+				<p class="card-text">內文說明概要</p>
+				<a href="#" class="btn btn-outline-dark"> 前往了解 >>> </a> 
+			</div>
 		</div>
-	</div>
-	&ensp;
-	<div class="columns card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/a5.jpg" alt="Card image cap" width="270" height="153" class="card-img-top rounded">
-  		<div class="card-body">
-    		<h5 class="card-title">景點標題</h5>
-    		<p class="card-text">內文說明概要</p>
-    		<a href="#" class="btn btn-outline-dark"> 前往了解 >>> </a> 
+		&ensp;
+		<div class="columns card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/a5.jpg" alt="Card image cap" width="270" height="153" class="card-img-top rounded">
+			<div class="card-body">
+				<h5 class="card-title">景點標題</h5>
+				<p class="card-text">內文說明概要</p>
+				<a href="#" class="btn btn-outline-dark"> 前往了解 >>> </a> 
+			</div>
 		</div>
-	</div>
-	&ensp;
-	<div class="columns card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/a6.jpg" alt="Card image cap" width="270" height="153" class="card-img-top rounded">
-  		<div class="card-body">
-    		<h5 class="card-title">景點標題</h5>
-    		<p class="card-text">內文說明概要</p>
-    		<a href="#" class="btn btn-outline-dark"> 前往了解 >>> </a> 
-		</div>
+		&ensp;
+		<div class="columns card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/a6.jpg" alt="Card image cap" width="270" height="153" class="card-img-top rounded">
+			<div class="card-body">
+				<h5 class="card-title">景點標題</h5>
+				<p class="card-text">內文說明概要</p>
+				<a href="#" class="btn btn-outline-dark"> 前往了解 >>> </a> 
+			</div>
+		</div>	
 	</div>	
+</div>
+	
+<div class="box2">	
+	<!--影片介紹-->
+	<div class="introduce">
+		<div class="title_1">
+		  <h4 class="text-center Label2">影片介紹</h4>
+		</div>
+	</div>
+
+	<!--YOUTUBE影片-->
+	<div class="mp4_1 col-md-12">
+		<center>
+			<iframe
+			width="600" height="338" src="https://www.youtube.com/embed/yiliCX-ilX8" 
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer;
+				   autoplay;
+				   clipboard-write;
+				   encrypted-media;
+				   gyroscope;
+				   picture-in-picture"
+			allowfullscreen></iframe>
+		</center>
+	</div>
 </div>	
 
-<!--影片介紹-->
-<div class="introduce">
-	<div class="title_1">
-	  <h4 class="text-center Label">影片介紹</h4>
-    </div>
-</div>
+<div class="box3">
+	<!--about-->
+	<div class="about">
+		<div class="title_1">
+			<h4 class="text-center Label3">關於巴黎</h4>
+		</div>
+		<!--about的說明-->
+		<div class="about-illustrate">
+			<p>
+				&emsp;&emsp;<b>巴黎</b>是一座著名的城市，因此每個人都對這座城市非常熟悉，對嗎？
+				<br>
+				&emsp;&emsp;<b>巴黎</b> 是一座古老而重要的城市，數百年來一直是歐洲歷史的中心，巴黎擁有許多奇特的秘密和鮮為人知的細節。
+			</p>
+		</div>
+	</div>
+</div>	
+<div class="box4">	
+	<!--聯絡我們-->
+	<div class="callme">
+		<div class="title_1">
+		  <h4 class="text-center Label4">聯絡我們</h4>
+		</div>
+	</div>
 
-<!--YOUTUBE影片-->
-<div class="mp4_1 col-md-12">
-	<center>
-		<iframe width="600" height="338" src="https://www.youtube.com/embed/yiliCX-ilX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</center>
-</div>
-&ensp;<br> <!--換行-->
-<!--about-->
-<div class="about">
-	<div class="title_1">
-		<h4 class="text-center Label2">關於巴黎</h4>
-	</div>
-	<!--about的說明-->
-	<div class="about-illustrate">
-		<p>　　<b>巴黎</b> 是一座著名的城市，因此每個人都對這座城市非常熟悉，對嗎？<br>　　<b>巴黎</b> 是一座古老而重要的城市，數百年來一直是歐洲歷史的中心，巴黎擁有許多奇特的秘密和鮮為人知的細節。</p>
+	<!--聯絡我們的說明-->
+	<div class="callme-illustrate">
+		<p>&emsp;✉Email：tako0988394244@gmail.com</p>
 	</div>
 </div>
 	
-	
-<!--聯絡我們-->
-<div class="callme">
-	<div class="title_1">
-	  <h4 class="text-center Label2">聯絡我們</h4>
-	</div>
-</div>
-	
-<!--聯絡我們的說明-->
-<div class="callme-illustrate">
-	<p>&emsp;✉Email：tako0988394244@gmail.com</p>
-</div>
-
 <!--水平線-->		
 <hr>
 	
 <!--版權說明-->	
 <center>Copyright©2021　作者：張婕怡　版權所有</center>
-	
-   	
-	
-	
-	
-	
+
+<!---------------------------------------------->	
+<!---------------------------------------------->
+<!---------------------------------------------->
+<!---------------------------------------------->	
+<!---------------------------------------------->
 <!--其它函示庫-->		
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/popper.min.js"></script>
