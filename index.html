@@ -10,6 +10,18 @@
 		text-decoration: none;
 	}
 	/*未訪問的連結*/
+	a:link{
+		color: #000;
+	}
+	/*滑鼠滑過的連結*/
+	a:hover{
+		color: #b9bbbe;
+	}
+	/*已選中的連結*/
+	a:active{
+		color: #FFCC60;
+	}
+	/*未訪問的連結*/
 	h3:link{
 		color: #000;
 	}
@@ -17,10 +29,10 @@
 	h3:hover{
 		color: #b9bbbe;
 	}
-	/*已選中的連結
-	h1:active{
+	/*已選中的連結*/
+	h3:active{
 		color: #FFCC60;
-	}*/
+	}
 	
 	/*未訪問的連結*/
 	h5:link{
@@ -35,40 +47,73 @@
 		color: #FFCC60;
 	}
 	.logo{
+		text-decoration:none;
 		float:left;
 		height: auto;
-		width: 90px;
+		width: 65px;
 		left: 100px;
 	}
 	.title{
+		
 		float:left;
 		height: auto;
 		width:250px;
 		text-align:left;
+		padding-top: 2px;
 	}
 	.front{
+		
 		float:left;
 		height: auto;
-		width: 65px;
+		width: 70px;
+		padding-top: 10px;
 		text-align:center;
 	}
 	.Attractions{
+		
 		float:left;
 		height: auto;
 		width: 100px;
+		padding-top: 10px;
 		text-align:center;
 	}
 	.Start{
 		margin: 0 auto;
 		width: 600px;
-		height: 50px;	
+		height: 60px;	
 		background-color: #ffffff;
 		top:50px;
 		display: flex;          /* ★ */
 		align-items: center;    /* 垂直置中 */
 	}
 	
+	.callme{
+		margin: 0 auto;
+		width: 600px;
+		height: 50px;	
+	}
+	
+	.callme{
+		padding-top: 10px;
+	}
+	.mp4_1{
+		padding-top: 20px;
+	}
+
+	.Columns{
+		margin: 0 auto;
+		width: 600px;
+		height: 300px;	
+		background-color: #ffffff;
+		top:50px;
+		display: flex;          /* ★ */
+		align-items: center;    /* 垂直置中 */
+	}
+	
+	
 </style>
+	
+
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -78,21 +123,22 @@
   <!--LOGO-->
 	<div class="logo">
 			<a href="index.html"><img src="images/logo.png" width="80" height="30" alt=""></a>
-  </div>
+  	</div>
+	
 	  <!--首頁標題-->
 		<div class="title">
-		  <h3 href="index.html"><a href="index.html">巴黎旅遊網</a></h3>
+		  <h3 class="col-md-9 text-left col-sm-9"><a href="index.html">巴黎旅遊網</a></h3>
         </div>
 	  <!--首頁-->
 		<div class="front">
-		  <h5 href="index.html"><a href="index.html">首頁</a></h5>
+		  <h5 class="text-center"><a href="index.html">首頁</a></h5>
         </div>
-	  <!--景點-->
+	  <!--簡介-->
 		<div class="Attractions">
-			<h5 href="index.html">巴黎簡介</h5>
+			<h5 class="text-center">巴黎簡介</h5>
 		</div>
 	  <!--景點-->
-		<div class="Attractions">
+  		<div class="Attractions">
 			<h5 href="index.html">巴黎景點</h5>
 		</div>
 </div>
@@ -105,7 +151,8 @@
       <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active"> <img class="d-block mx-auto" src="images/Carousel_Placeholder.jpg" alt="First slide">
+      <div class="carousel-item active">
+	    <img class="d-block mx-auto" src="images/Carousel_Placeholder.jpg" alt="First slide">
         <div class="carousel-caption">
           <h5>First slide Heading</h5>
           <p>First slide Caption</p>
@@ -126,7 +173,53 @@
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
 </div>
+
+<!--景點介紹-->
+<div class="callme">
+	<div class="title_1">
+	  <h4 class="text-center">景點介紹</h4>
+	</div>
+</div>
+	
+<!--景點分欄介紹-->	
+<div class="Columns">
+	
+<div class="card col-sm-4 offset-sm-1 offset-md-0 col-md-4"> <img src="images/card-img.png" alt="Card image cap" width="270" height="153" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">景點標題</h5>
+    <p class="card-text">內文說明概要</p>
+    <a href="#" class="btn btn-primary"> 前往了解>>> </a> 
+	</div>
+</div>
+</div>	
+	
+	
+	
+	
+	
+	
+
+<!--影片介紹-->
+<div class="callme">
+	<div class="title_1">
+	  <h4 class="text-center">簡單介紹【巴黎城市】</h4>
+	  <p>&nbsp;</p>
+    </div>
+</div>
+<center>
+<iframe width="600" height="340" src="https://www.youtube.com/embed/yiliCX-ilX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+	
+<!--聯繫我們-->
+<div class="callme">
+	<div class="title_1">
+	  <h4 class="text-center">聯繫我們</h4>
+	</div>
+</div>
+	
 <hr>
+	
 <center>Copyright©2021　作者：張婕怡　版權所有</center>
 	
 <script src="js/jquery-3.4.1.min.js"></script>
