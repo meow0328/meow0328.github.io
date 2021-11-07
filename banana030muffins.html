@@ -1,0 +1,333 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=1080">
+<title>巴黎旅遊網</title>
+<style>
+	a{
+		text-decoration: none;
+	}
+	/*未訪問的連結*/
+	a:link{
+		color: #000;
+	}
+	/*滑鼠滑過的連結*/
+	a:hover{
+		color: #b9bbbe;
+	}
+	/*已選中的連結*/
+	a:active{
+		color: #FFCC60;
+	}
+	/*未訪問的連結*/
+	h3:link{
+		color: #000;
+	}
+	/*滑鼠滑過的連結*/
+	h3:hover{
+		color: #b9bbbe;
+	}
+	/*已選中的連結*/
+	h3:active{
+		color: #FFCC60;
+	}
+	
+	/*未訪問的連結*/
+	h5:link{
+		color: #000;
+	}
+	/*滑鼠滑過的連結*/
+	h5:hover{
+		color: #b9bbbe;
+	}
+	/*已選中的連結*/
+	h5:active{
+		color: #FFCC60;
+	}
+	
+	
+	.logo{
+		text-decoration:none;
+		float:left;
+		height: auto;
+		width: 65px;
+		left: 100px;
+	}
+	.title1{
+		float:left;
+		height: auto;
+		width:600px;
+		text-align:left;
+		padding-top: 5px;
+		
+	}
+	.title2{
+		height: auto;
+		width:800px;
+		text-align:left;
+		padding-top: 16px;
+	}
+	.front{
+		
+		float:left;
+		height: auto;
+		width: 70px;
+		padding-top: 10px;
+		text-align:center;
+	}
+	.Attractions{
+		float:left;
+		height: auto;
+		width: 120px;
+		padding-top: 10px;
+		text-align:center;
+		padding-left: 20px;
+	}
+	.Start{
+		margin: 0 auto;
+		width: auto;
+		height: 60px;	
+		background-color: #FFFDE2;
+		top:50px;
+		display: flex;          /* ★ */
+		align-items: center;    /* 垂直置中 */
+	}
+	
+	.viewpoint{
+		margin: 0 auto;
+		width: 600px;
+		height: 50px;
+		padding-top: 20px;
+	}
+	
+	.introduce{
+		margin: 0 auto;
+		width: 600px;
+		height: 50px;
+		padding-top: 22.5px;
+	}
+	
+	.mp4_1{
+		argin: 0 auto;
+		width: 500px;
+		height: 340px;
+		padding-top: 25px;
+	}
+	
+	.about{
+		margin: 0 auto;
+		width: 600px;
+		height: 150px;
+		padding-top: 30px;
+	}
+	
+	.callme{
+		margin: 0 auto;
+		width: 600px;
+		height: 50px;
+		padding-top: 40px;
+	}
+
+	.Columns1{
+		margin: 0 auto;
+		width: 700px;
+		height: 300px;
+		background-color: #C4FAFF;
+		padding-top:30px;
+		display: flex;          /* ★ */
+		align-items: center;    /* 垂直置中 */
+	}
+	
+	.Columns2{
+		background-color: #C4FAFF;
+		padding-top: 63px;
+	}
+	
+	.Label1 {
+		font-family: "微軟正黑體";
+		font-weight: bold;
+		margin: 0 auto;
+		background-image:url("images/標籤水平線.png");
+		background-repeat: no-repeat;
+		background-position: 0 50%;
+	}
+	
+	.Label2 {
+		font-family: "微軟正黑體";
+		font-weight: bold;
+		margin: 0 auto;
+		background-image:url("images/標籤水平線2.png");
+		background-repeat: no-repeat;
+		background-position: 0 50%;
+	}	
+	
+	.Label3 {
+		font-family: "微軟正黑體";
+		font-weight: bold;
+		margin: 0 auto;
+		background-image:url("images/標籤水平線3.png");
+		background-repeat: no-repeat;
+		background-position: 0 50%;
+	}
+	
+	.Label4 {
+		font-family: "微軟正黑體";
+		font-weight: bold;
+		margin: 0 auto;
+		background-image:url("images/標籤水平線4.png");
+		background-repeat: no-repeat;
+		background-position: 0 50%;
+	}
+	
+	.about-illustrate {
+		margin: 0 auto;
+		width: 600px;
+		height: 100px;
+	}
+	
+	.callme-illustrate{
+		margin: 0 auto;
+		width: 600px;
+		height: 40px;
+		padding-top: 18px;
+	}
+	
+	.box1{
+		height: 600px;
+		background-color: #ffffff;
+	}
+	
+	.box2{
+		height: 450px;
+		background-color: #DCFFD7;		
+	}
+	
+	.box3{
+		height: 190px;
+		background-color: #ffffff;		
+	}
+	
+	.box4{
+		height: 130px;
+		background-color: #ECECEC;		
+	}
+	
+	.text_lab1{
+		margin: 0 auto;
+		width: 600px;
+		height: 700px;
+	}
+	.image_top {
+		height: 300px;
+	}
+
+	<script type="text/javascript">
+		if(navigator.userAgent.match(/Android|iPhone|iPad/i)) {
+			window.location = "http://meow0328.github.io/";
+		}
+	</script>
+
+</style>
+<!--其它-->	
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+<!--上方列-->
+<div class="Start">
+	<div class="Start">
+	  <!--首頁標題-->
+			<div class="title1">
+					  <!--LOGO-->
+			<div class="logo">
+				<a href="index.html"><img src="images/logo2.png" width="130" height="60" alt=""></a>
+			</div>
+			<div class="title2">
+				<h3 class="text-left col-sm-9 col-md-9 offset-sm-2">
+					<a href="index.html" 
+					   style="color:#000000;
+							  text-decoration:none;
+							  font-family: '微軟正黑體';
+							  font-size: 26px;">
+						<b>健康營養莓問題 - 香氣四溢，蛋想放鬆</b>
+					</a>
+				</h3>
+			</div>
+			</div>
+
+	</div>
+</div>
+
+<!--文章內容-->
+<div class="box1">
+	<div class="text_lab1">
+		&ensp;
+		
+		<center><iframe width="600" height="400" src="https://www.youtube.com/embed/ngO7drI63TA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+		
+		<h5 class="text-center">
+			<a href="index.html" 
+				style="color:#e83e8c;
+					   text-decoration:none;
+					   font-family: '微軟正黑體';
+					   font-size: 34px;">
+				健康營養莓問題 - 香氣四溢，蛋想放鬆		
+			</a>
+		</h5>
+		<h5 class="text-center">
+			<a href="index.html" 
+				style="color:#3A00FF;
+					   text-decoration:none;
+					   font-family: '微軟正黑體';
+					   font-size: 28px;">
+				「創意組」		
+			</a>
+		</h5>
+		<h5 class="text-center">
+			<a href="index.html" 
+				style="color:#000000;
+					   text-decoration:none;
+					   font-family: '微軟正黑體';
+					   font-size: 18px;">
+				關鍵詞：蔓越莓、香蕉、雞蛋		
+			</a>
+		</h5>		
+
+	</div>
+</div>
+
+<div class="box4">	
+	<!--聯絡我們-->
+	<div class="callme">
+		<div class="title_1">
+		  <h4 class="text-center Label4">聯絡我們</h4>
+		</div>
+	</div>
+
+	<!--聯絡我們的說明-->
+	<div class="callme-illustrate">
+		
+		<p><img src="images/Mail.png" height="18"> Email：tako0988394244@gmail.com</p>
+	</div>
+</div>
+	
+<!--水平線-->		
+<hr>
+	
+<!--版權說明-->	
+<center>Copyright©2021　作者：張婕怡　版權所有</center>
+
+<!---------------------------------------------->	
+<!---------------------------------------------->
+<!---------------------------------------------->
+<!---------------------------------------------->	
+<!---------------------------------------------->
+<!--其它函示庫-->		
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
